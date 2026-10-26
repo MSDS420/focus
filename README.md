@@ -14,7 +14,7 @@ Execute `node tests/test-app.cjs` para validar as regras principais. Para usar o
 4. Aguarde a URL exibida pelo GitHub Pages e abra-a. Os dados permanecem neste navegador e neste dispositivo.
 5. Para ativar o lembrete diário, abra o FOCUS pela URL HTTPS do GitHub Pages, permita notificações e toque em **Ativar lembrete**.
 
-O lembrete das 19h aparece enquanto o FOCUS está aberto. Sem um serviço de push no servidor, o navegador não consegue agendar notificações quando o app está fechado. O projeto inclui `manifest.webmanifest`, `sw.js` e `focus-icon.svg` para suporte básico a PWA.
+Os lembretes das 07h e das 19h aparecem enquanto o FOCUS está aberto. Sem um serviço de push no servidor, o navegador não consegue agendar notificações quando o app está fechado. O projeto inclui `manifest.webmanifest`, `sw.js` e `focus-icon.svg` para suporte básico a PWA.
 
 ## Regras do histórico
 

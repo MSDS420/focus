@@ -8,10 +8,13 @@ Execute `node tests/test-app.cjs` para validar as regras principais. Para usar o
 
 ## Publicar no GitHub Pages
 
-1. Crie um repositório GitHub e envie `index.html`, `style.css` e `app.js` para a branch principal.
+1. Crie um repositório GitHub e envie os arquivos `index.html`, `style.css`, `app.js`, `manifest.webmanifest`, `sw.js` e `focus-icon.svg` para a raiz da branch principal.
 2. No repositório, abra **Settings → Pages**.
 3. Em **Build and deployment**, escolha **Deploy from a branch**, selecione a branch principal e a pasta `/ (root)`, e salve.
 4. Aguarde a URL exibida pelo GitHub Pages e abra-a. Os dados permanecem neste navegador e neste dispositivo.
+5. Para ativar o lembrete diário, abra o FOCUS pela URL HTTPS do GitHub Pages, permita notificações e toque em **Ativar lembrete**.
+
+O lembrete das 19h aparece enquanto o FOCUS está aberto. Sem um serviço de push no servidor, o navegador não consegue agendar notificações quando o app está fechado. O projeto inclui `manifest.webmanifest`, `sw.js` e `focus-icon.svg` para suporte básico a PWA.
 
 ## Regras do histórico
 

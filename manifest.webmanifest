@@ -1,0 +1,13 @@
+{
+  "name": "FOCUS — objetivos diários",
+  "short_name": "FOCUS",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11101a",
+  "theme_color": "#11101a",
+  "icons": [
+    { "src": "focus-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
